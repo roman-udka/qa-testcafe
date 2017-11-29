@@ -1,0 +1,14 @@
+{
+  "name": "test-cafe-demo",
+  "version": "1.0.0",
+  "description": "docker+jenkinsfile+testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe -b \"chrome:headless --no-sandbox\" tests/test.js --assertion-timeout 10000 --selector-timeout 20000"
+  },
+  "author": "Roman_Udka",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^0.16.2"
+  }
+}
