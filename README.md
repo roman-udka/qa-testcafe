@@ -1,1 +1,2 @@
-# testcafe_demo
+# testcafe_run
+```testcafe chrome test.js```
