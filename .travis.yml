@@ -1,9 +1,12 @@
 language: node_js
 node_js: "stable"
 
+echo "$TOKEN_AWS"
+echo "$TOKEN_DB"
+
 before_install:
     - stty cols 80
     
-addons:
-  chrome: stable
+echo "$TOKEN_AWS"
+echo "$TOKEN_DB"   
 
