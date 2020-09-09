@@ -1,4 +1,0 @@
-env:
-  - DB=$TOKEN_DB
-  - SH=TOKEN_AWS
-  - PACKAGE_VERSION="1.0.*"
